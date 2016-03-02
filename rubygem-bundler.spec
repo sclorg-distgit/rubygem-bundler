@@ -8,7 +8,7 @@
 Summary: Library and utilities to manage a Ruby application's gem dependencies
 Name: %{?scl_prefix}rubygem-%{gem_name}
 Version: 1.10.6
-Release: 3%{?dist}
+Release: 4%{?dist}
 Group: Development/Languages
 License: MIT
 URL: http://gembundler.com
@@ -132,6 +132,9 @@ rspec spec
 %{gem_instdir}/%{gem_name}.gemspec
 
 %changelog
+* Wed Feb 17 2016 Pavel Valena <pvalena@redhat.com> - 1.10.6-4
+- Rebuilt with rh-ruby23-scldevel in buildroot
+
 * Wed Feb 17 2016 Pavel Valena <pvalena@redhat.com> - 1.10.6-3
 - Add scl macros
 
